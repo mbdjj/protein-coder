@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		3471BCE5299F854500167BD3 /* protein_generatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3471BCE4299F854500167BD3 /* protein_generatorApp.swift */; };
-		3471BCE7299F854500167BD3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3471BCE6299F854500167BD3 /* ContentView.swift */; };
+		3471BCE7299F854500167BD3 /* ProteinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3471BCE6299F854500167BD3 /* ProteinView.swift */; };
 		3471BCE9299F854600167BD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3471BCE8299F854600167BD3 /* Assets.xcassets */; };
 		3471BCEC299F854600167BD3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3471BCEB299F854600167BD3 /* Preview Assets.xcassets */; };
+		3471BCF3299F85CA00167BD3 /* ProteinManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3471BCF2299F85CA00167BD3 /* ProteinManager.swift */; };
+		3471BCF5299F8AEC00167BD3 /* ProteinViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3471BCF4299F8AEC00167BD3 /* ProteinViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3471BCE1299F854500167BD3 /* protein-generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "protein-generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3471BCE4299F854500167BD3 /* protein_generatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = protein_generatorApp.swift; sourceTree = "<group>"; };
-		3471BCE6299F854500167BD3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3471BCE6299F854500167BD3 /* ProteinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProteinView.swift; sourceTree = "<group>"; };
 		3471BCE8299F854600167BD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3471BCEB299F854600167BD3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3471BCF2299F85CA00167BD3 /* ProteinManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProteinManager.swift; sourceTree = "<group>"; };
+		3471BCF4299F8AEC00167BD3 /* ProteinViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProteinViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				3471BCE4299F854500167BD3 /* protein_generatorApp.swift */,
-				3471BCE6299F854500167BD3 /* ContentView.swift */,
+				3471BCE6299F854500167BD3 /* ProteinView.swift */,
+				3471BCF2299F85CA00167BD3 /* ProteinManager.swift */,
+				3471BCF4299F8AEC00167BD3 /* ProteinViewModel.swift */,
 				3471BCE8299F854600167BD3 /* Assets.xcassets */,
 				3471BCEA299F854600167BD3 /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3471BCE7299F854500167BD3 /* ContentView.swift in Sources */,
+				3471BCE7299F854500167BD3 /* ProteinView.swift in Sources */,
 				3471BCE5299F854500167BD3 /* protein_generatorApp.swift in Sources */,
+				3471BCF5299F8AEC00167BD3 /* ProteinViewModel.swift in Sources */,
+				3471BCF3299F85CA00167BD3 /* ProteinManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +278,8 @@
 				DEVELOPMENT_TEAM = CMJ553K76W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Protein;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +309,8 @@
 				DEVELOPMENT_TEAM = CMJ553K76W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Protein;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
